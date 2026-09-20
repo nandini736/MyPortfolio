@@ -1,0 +1,47 @@
+/* =========================
+   CUSTOM CURSOR
+   ========================= */
+
+.custom-cursor {
+  position: fixed;
+
+  top: -5px;
+  left: -5px;
+
+  width: 10px;
+  height: 10px;
+
+  border-radius: 50%;
+
+  background: #00d4ff;
+
+  box-shadow:
+    0 0 10px rgba(0, 212, 255, 0.8),
+    0 0 20px rgba(108, 99, 255, 0.5);
+
+  pointer-events: none;
+
+  z-index: 9999;
+
+  transform: translate3d(0, 0, 0);
+
+  transition:
+    width 0.2s ease,
+    height 0.2s ease,
+    background 0.2s ease;
+
+  will-change: transform;
+}
+
+
+/* =========================
+   DESKTOP ONLY
+   ========================= */
+
+@media (max-width: 850px) {
+
+  .custom-cursor {
+    display: none;
+  }
+
+}

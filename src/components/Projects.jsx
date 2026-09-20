@@ -239,7 +239,7 @@ function Projects() {
         </p>
 
         <a
-          href="YOUR_GITHUB_PROFILE_LINK"
+          href="https://github.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
